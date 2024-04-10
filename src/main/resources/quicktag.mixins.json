@@ -1,0 +1,16 @@
+{
+    "required": true,
+    "package": "io.github.soqb.quicktag.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "EntityMixin",
+        "EntitySelectorMixin",
+        "EntitySelectorOptionsMixin",
+        "EntitySelectorReaderMixin",
+        "MinecraftServerMixin",
+        "accessors.ServerWorldMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

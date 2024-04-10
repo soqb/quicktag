@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "quicktag",
+    "version": "${version}",
+    "name": "quicktag",
+    "description": "`/tag`, but much quicker all around",
+    "authors": [
+        "soqb"
+    ],
+    "contact": {
+        "homepage": "https://fabricmc.net/",
+        "sources": "https://github.com/FabricMC/fabric-example-mod"
+    },
+    "license": "CC0-1.0",
+    "icon": "assets/sesico/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.soqb.quicktag.QuickTag"
+        ]
+    },
+    "mixins": [
+        "quicktag.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.15.0",
+        "minecraft": "~1.20.4",
+        "java": ">=17",
+        "fabric-api": "*"
+    }
+}
